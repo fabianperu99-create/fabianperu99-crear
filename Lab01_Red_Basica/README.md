@@ -24,5 +24,4 @@ Resultado: `Reply from 192.168.1.2: bytes=32 time=4ms TTL=128` ✅ 100% éxito
 Comprendí el funcionamiento de un Switch en la Capa 2 del modelo OSI. 
 El Switch aprende direcciones MAC y reenvía tramas entre dispositivos.
 
-**Evidencia:**
-![Topologia Lab01](topologia.png)
+
