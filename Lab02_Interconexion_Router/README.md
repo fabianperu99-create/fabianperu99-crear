@@ -33,5 +33,4 @@ Se implementaron 2 redes LAN conectadas por un Router.
 3. Asignar IP y Gateway a cada PC.
 4. Realizar pruebas de conectividad con el comando `ping`.
 
-## Evidencias
-![Evidencia Lab02](Lab02_Evidencia_Completa.png)
+![Evidencia Lab02](Lab02_Topologia.png)
