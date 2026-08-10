@@ -28,13 +28,12 @@ segmentación de red.
 5. Configurar IP y Gateway en cada PC
 6. Realizar pruebas de ping dentro de la misma VLAN y entre VLANs
 
-## 5. Evidencias
 
-![Evidencias Lab03](Lab03_Config_SwitchRouter.png)
-
-
-## 6. Conclusión
+## 5. Conclusión
 Se logró configurar correctamente las VLANs 10 y 20 en el Switch. 
 Mediante el uso de Router-on-a-Stick se habilitó la comunicación entre VLANs 
 diferentes, comprobando que el enrutamiento Inter-VLAN funciona correctamente 
 como se evidencia en la prueba de ping con 0% de pérdida.
+
+## 4. Evidencias
+![Evidencias Lab03](Lab03_Config_SwitchRouter.png)
