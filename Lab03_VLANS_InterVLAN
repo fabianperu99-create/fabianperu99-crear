@@ -35,5 +35,5 @@ Mediante el uso de Router-on-a-Stick se habilitó la comunicación entre VLANs
 diferentes, comprobando que el enrutamiento Inter-VLAN funciona correctamente 
 como se evidencia en la prueba de ping con 0% de pérdida.
 
-## 4. Evidencias
+## 6. Evidencias
 ![Evidencias Lab03](Lab03_Config_SwitchRouter.png)
