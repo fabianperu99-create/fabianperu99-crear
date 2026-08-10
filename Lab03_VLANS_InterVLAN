@@ -31,7 +31,7 @@ segmentación de red.
 ## 5. Evidencias
 
 ![Evidencias Lab03](Lab03_Config_SwitchRouter.png)
-*Figura 1: Topología, Configuración de Switch/Router y Prueba de Ping exitosa*
+
 
 ## 6. Conclusión
 Se logró configurar correctamente las VLANs 10 y 20 en el Switch. 
