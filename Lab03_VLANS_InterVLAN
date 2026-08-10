@@ -1,0 +1,29 @@
+## 1. Objetivo
+Configurar VLANs en un Switch y habilitar la comunicación entre ellas
+usando un Router. Aprender el concepto de Enrutamiento Inter-VLAN y 
+segmentación de red.
+
+## 2. Materiales
+- Cisco Packet Tracer
+- 1 Router
+- 1 Switch Multicapa/Layer 2
+- 4 PCs
+- Cables de consola y Ethernet
+
+## 3. Direccionamiento IP
+| Dispositivo | Interfaz | Dirección IP | Máscara | Gateway |
+| --- | --- | --- | --- | --- |
+| PC1 | NIC | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
+| PC3 | NIC | 192.168.10.11 | 255.255.255.0 | 192.168.10.1 |
+| PC2 | NIC | 192.168.20.10 | 255.255.255.0 | 192.168.20.1 |
+| PC4 | NIC | 192.168.20.11 | 255.255.255.0 | 192.168.20.1 |
+| Router | G0/0.10 | 192.168.10.1 | 255.255.255.0 | N/A |
+| Router | G0/0.20 | 192.168.20.1 | 255.255.255.0 | N/A |
+
+## 4. Procedimiento
+1. Crear VLAN 10 y VLAN 20 en el Switch
+2. Asignar puertos F0/1 y F0/2 a VLAN 10. Puertos F0/3 y F0/4 a VLAN 20
+3. Configurar puerto F0/24 como Trunk hacia el Router
+4. Crear subinterfaces en el Router con encapsulación dot1Q
+5. Configurar IP y Gateway en cada PC
+6. Realizar pruebas de ping dentro de la misma VLAN y entre VLANs
