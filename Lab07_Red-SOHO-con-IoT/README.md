@@ -15,29 +15,38 @@ desde la interfaz web del Gateway.
 ## 3. Desarrollo y Evidencias
 
 ### Evidencia 1: Configuración DHCP y Asignación de IP
-Se configuró el servicio DHCP en el Home Gateway0. La Home-Tablet
+Se configuró el servicio DHCP en el Home Gateway0. La Home-Tablet 
 obtuvo configuración IP automáticamente con Gateway `192.168.25.1`
-y DNS `203.0.0.2`, confirmando que la red interna `192.168.25.0/24` 
+y DNS `203.0.0.2`, confirmando que la red interna `192.168.25.0/24`
 funciona correctamente.
-![Configuración DHCP](./evidencias/DHCP.png)
+![Configuración DHCP](DHCP.png)
 *Figura 1: Configuración WAN del Gateway e IP por DHCP en la Tablet*
 
 ### Evidencia 2: Prueba de Conectividad
-Se realizó prueba de ping desde el PC hacia la dirección 
-`192.168.25.100`. El resultado muestra 4 paquetes enviados,
-4 recibidos y 0% de pérdida, lo que confirma la conectividad 
-en la red LAN.
-![Prueba de Ping](evidencias_PING.png)
+Se realizó prueba de ping desde el PC hacia la dirección `192.168.25.100`. 
+El resultado muestra 4 paquetes enviados, 4 recibidos y 0% de pérdida,
+lo que confirma la conectividad en la red LAN.
+![Prueba de Ping](PING.png.jpg)
 *Figura 2: Ping exitoso desde PC a 192.168.25.100*
 
 ### Evidencia 3: Gestión de Dispositivos IoT
-Se accedió a la interfaz web de administración del Home Gateway0
-desde la Home-Tablet mediante la URL `http://192.168.25.1` utilizando
-las credenciales `admin/admin`. Esta interfaz permite controlar
-dispositivos IoT como el Music Player y los Speakers.
-![Interfaz IoT](evidencias_IoT.png)
-*Figura 3: Login a la interfaz web del Home Gateway0 para administración
-IoT*
+Se accedió a la interfaz web de administración del Home Gateway0 desde 
+la Home-Tablet mediante la URL `http://192.168.25.1` utilizando las
+credenciales `admin/admin`. Esta interfaz permite controlar dispositivos 
+IoT como el Music Player y los Speakers.
+![Interfaz IoT](IoT.PNG)
+*Figura 3: Login a la interfaz web del Home Gateway0 para administración IoT*
+
+## 4. Conclusiones
+1. Se implementó exitosamente una red SOHO con segmentación LAN y conexión
+    WAN simulada.
+2. El servicio DHCP del Home Gateway asignó direcciones IP correctamente a
+  los dispositivos inalámbricos.
+3. Se verificó la conectividad de la red mediante pruebas de ping con 0% de
+  pérdida de paquetes.
+4. Se demostró la administración de dispositivos IoT a través de una interfaz
+   web, cumpliendo con el objetivo de hogar inteligente.
+5. La topología cumple con los requerimientos de una red doméstica moderna.
 
 ## 4. Conclusiones
 1. Se implementó exitosamente una red SOHO con segmentación LAN y conexión
