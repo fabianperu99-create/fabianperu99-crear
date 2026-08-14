@@ -30,12 +30,9 @@ lo que confirma la conectividad en la red LAN.
 *Figura 2: Ping exitoso desde PC a 192.168.25.100*
 
 ### Evidencia 3: Gestión de Dispositivos IoT
-Se accedió a la interfaz web de administración del Home Gateway0 desde 
-la Home-Tablet mediante la URL `http://192.168.25.1` utilizando las
-credenciales `admin/admin`. Esta interfaz permite controlar dispositivos 
-IoT como el Music Player y los Speakers.
-![Interfaz IoT](IoT.PNG)
-*Figura 3: Login a la interfaz web del Home Gateway0 para administración IoT*
+Acceso a la interfaz web del Gateway con `admin/admin` para controlar dispositivos.
+![Interfaz IoT](IoT_web.png)
+*Figura 3: Login a la interfaz web del Home Gateway0*
 
 ## 4. Conclusiones
 1. Se implementó exitosamente una red SOHO con segmentación LAN y conexión
