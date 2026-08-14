@@ -19,7 +19,7 @@ Se configuró el servicio DHCP en el Home Gateway0. La Home-Tablet
 obtuvo configuración IP automáticamente con Gateway `192.168.25.1`
 y DNS `203.0.0.2`, confirmando que la red interna `192.168.25.0/24` 
 funciona correctamente.
-![Configuración DHCP](evidencias/DHCP.png.jpg)
+![Configuración DHCP](evidencias_DHCP.png.jpg)
 *Figura 1: Configuración WAN del Gateway e IP por DHCP en la Tablet*
 
 ### Evidencia 2: Prueba de Conectividad
@@ -27,7 +27,7 @@ Se realizó prueba de ping desde el PC hacia la dirección
 `192.168.25.100`. El resultado muestra 4 paquetes enviados,
 4 recibidos y 0% de pérdida, lo que confirma la conectividad 
 en la red LAN.
-![Prueba de Ping](evidencias/PING.png.jpg)
+![Prueba de Ping](evidencias_PING.png.jpg)
 *Figura 2: Ping exitoso desde PC a 192.168.25.100*
 
 ### Evidencia 3: Gestión de Dispositivos IoT
@@ -35,7 +35,7 @@ Se accedió a la interfaz web de administración del Home Gateway0
 desde la Home-Tablet mediante la URL `http://192.168.25.1` utilizando
 las credenciales `admin/admin`. Esta interfaz permite controlar
 dispositivos IoT como el Music Player y los Speakers.
-![Interfaz IoT](evidencias/IoT.PNG)
+![Interfaz IoT](evidencias_IoT.PNG)
 *Figura 3: Login a la interfaz web del Home Gateway0 para administración
 IoT*
 
