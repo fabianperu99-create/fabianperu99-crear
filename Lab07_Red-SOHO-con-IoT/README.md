@@ -19,7 +19,7 @@ Se configuró el servicio DHCP en el Home Gateway0. La Home-Tablet
 obtuvo configuración IP automáticamente con Gateway `192.168.25.1`
 y DNS `203.0.0.2`, confirmando que la red interna `192.168.25.0/24` 
 funciona correctamente.
-![Configuración DHCP](evidencias/DHCP.png)
+![Configuración DHCP](./evidencias/DHCP.png)
 *Figura 1: Configuración WAN del Gateway e IP por DHCP en la Tablet*
 
 ### Evidencia 2: Prueba de Conectividad
