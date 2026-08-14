@@ -31,7 +31,7 @@ lo que confirma la conectividad en la red LAN.
 
 ### Evidencia 3: Gestión de Dispositivos IoT
 Acceso a la interfaz web del Gateway con `admin/admin` para controlar dispositivos.
-![Interfaz IoT](IoT_web.png)
+![Interfaz IoT](231.png)
 *Figura 3: Login a la interfaz web del Home Gateway0*
 
 ## 4. Conclusiones
