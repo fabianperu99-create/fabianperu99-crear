@@ -45,30 +45,5 @@ Acceso a la interfaz web del Gateway con `admin/admin` para controlar dispositiv
    web, cumpliendo con el objetivo de hogar inteligente.
 5. La topología cumple con los requerimientos de una red doméstica moderna.
 
-## 4. Conclusiones
-1. Se implementó exitosamente una red SOHO con segmentación LAN y conexión
-   WAN simulada.
-2. El servicio DHCP del Home Gateway asignó direcciones IP correctamente
- a los dispositivos inalámbricos.
-3. Se verificó la conectividad de la red mediante pruebas de ping con 0%
- de pérdida de paquetes.
-4. Se demostró la administración de dispositivos IoT a través de una interfaz
-  web, cumpliendo con el objetivo de hogar inteligente.
-5. La topología cumple con los requerimientos de una red doméstica moderna
- con control centralizado.
-
-# Conclusión 
-
-En el desarrollo de esta práctica se logró configurar una red SOHO funcional
-en Cisco Packet Tracer. 
-
-Los puntos clave fueron:
-- **Conectividad**: Se comprobó mediante ping que todos los dispositivos dentro
-   de la red `192.168.25.0/24` se comunican correctamente.
-- **DHCP**: El Home Gateway actuó como servidor DHCP, asignando IPs
-  automáticamente y facilitando la conexión de la Tablet.
-- **IoT**: Se implementó la gestión de dispositivos inteligentes mediante la
-  interfaz web del Gateway, demostrando el concepto de hogar conectado.
-
 Esta práctica permitió comprender la integración de redes tradicionales con 
 dispositivos IoT, base fundamental para las redes domésticas actuales.
